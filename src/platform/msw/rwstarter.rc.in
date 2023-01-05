@@ -1,0 +1,24 @@
+1 VERSIONINFO
+FILEVERSION @RWSTARTER_RC_VERSION@
+PRODUCTVERSION @RWSTARTER_RC_VERSION@
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "Emmanuel Boutin"
+   VALUE "FileDescription", "@RWSTARTER_APP_NAME@"
+   VALUE "FileVersion", "@RWSTARTER_BUILD_ID@"
+   VALUE "ProductName", "@RWSTARTER_APP_NAME@"
+   VALUE "ProductVersion", "@RWSTARTER_BUILD_ID@"
+   VALUE "InternalName", "@RWSTARTER_APP_NAME@"
+   VALUE "LegalCopyright", "Copyright \251 2023 Emmanuel Boutin"
+   VALUE "OriginalFilename", "rwstarter.exe"
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+   VALUE "Translation", 0x409, 1252
+ }
+}
+1 24 "RWSTARTER.manifest" 

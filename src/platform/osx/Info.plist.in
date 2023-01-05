@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleExecutable</key>
+  <string>@RWSTARTER_APP_KEY@</string>
+  <key>CFBundleGetInfoString</key>
+  <string>@RWSTARTER_APP_NAME@ Copyright (C) 2023 Emmanuel Boutin</string>
+  <key>CFBundleIconFile</key>
+  <string>RWSTARTER.icns</string>
+  <key>CFBundleName</key>
+  <string>@RWSTARTER_APP_KEY@</string>
+  <key>CFBundleShortVersionString</key>
+  <string>@RWSTARTER_APP_NAME@ @RWSTARTER_BUILD_ID@</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.kaalkuul.RWSTARTER/</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleSignature</key>
+  <string>????</string>
+  <key>CFBundleVersion</key>
+  <string>@RWSTARTER_BUILD_ID@</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>10.10</string>
+  <key>NSPrincipalClass</key>
+  <string>NSApplication</string>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>LSEnvironment</key>
+  <dict>
+    <key>ASAN_OPTIONS</key>
+    <string>detect_container_overflow=0</string>
+  </dict>
+</dict>
+</plist>
