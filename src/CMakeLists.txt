@@ -24,15 +24,12 @@ add_executable(rwstarter WIN32
         main.cpp
         RwStarter.h
         RwStarterApp.h RwStarterApp.cpp
-        # MainFrame.h MainFrame.cpp
         RwStarterDocumentManager.h RwStarterDocumentManager.cpp
         ProjectDocument.h ProjectDocument.cpp
         ProjectView.h ProjectView.cpp
         RwCanvas.h RwCanvas.cpp
         RwGLContext.h RwGLContext.cpp
-        camera/main.h camera/main.cpp
-        camera/camexamp.h camera/camexamp.cpp
-        camera/viewer.h camera/viewer.cpp
+        viewer.h viewer.cpp
         ${CMAKE_CURRENT_BINARY_DIR}/rwstarter.rc
     )
 

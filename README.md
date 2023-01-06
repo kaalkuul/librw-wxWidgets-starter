@@ -8,6 +8,8 @@ It should run on all platforms having OpenGL 3.3 and supported by librw and wxWi
 
 It has been developped on Windows 10 using Visual Studio 2019.
 
+<img src="https://raw.githubusercontent.com/kaalkuul/librw-wxWidgets-starter/master/doc/images/screenshot-1.png"/>
+
 ## Getting the code
 
 The easiest way to get hold of the starter code is to run the following command using a shell you can run git from:
@@ -34,7 +36,7 @@ cmake -S . -B build
 cmake --build build
 ```
 
-Compiled dependencies are installed in path/to/librw-wxWidgets-starter/extdeps/usr/local.
+Compiled dependencies are installed in path/to/librw-wxWidgets-starter/extdeps/usr/local in a traditional Unix-style prefix structure.
 
 ## Configure and build the project
 
