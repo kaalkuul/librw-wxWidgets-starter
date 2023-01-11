@@ -1,7 +1,5 @@
 #pragma once
 
-#include "wxRwCanvas.h"
-
 struct TextureCamera
 {
 	rw::Raster* raster;

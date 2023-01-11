@@ -19,8 +19,6 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/platform/msw/rwstarter.manifest.in ${
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/platform/osx/Info.plist.in ${CMAKE_CURRENT_BINARY_DIR}/Info.plist @ONLY)
 
 add_executable(rwstarter WIN32
-        wxRwCanvas.h wxRwCanvas.cpp
-        wxRwGLContext.h wxRwGLContext.cpp
         main.cpp
         RwStarter.h
         RwStarterApp.h RwStarterApp.cpp
@@ -45,13 +43,14 @@ target_precompile_headers(rwstarter
   <wx/config.h>
   <wx/intl.h>
   <wx/cmdline.h>
-  <rw.h>
+  <librw-wx.h>
   <wx/glcanvas.h>
 )
 
 target_link_libraries(rwstarter
     librw::skeleton
     librw::librw
+    librw-wx
     ${wxWidgets_LIBRARIES}
 )
 
